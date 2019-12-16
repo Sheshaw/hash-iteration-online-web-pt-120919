@@ -8,9 +8,9 @@ describe "#happy_birthday" do
       "Amanda" => 27
     }
 
-    expect{happy_birthday(birthday_kids)}.to output("Happy Birthday Timmy!You are now 9 years old!
-    Happy Birthday Sarah!You are now 6 years old!
-    Happy Birthday Amanda!You are now 27 years old!").to_stdout
+    expect{happy_birthday(birthday_kids)}.to output("Happy Birthday Timmy!You are now 9 years old!\n
+    Happy Birthday Sarah!You are now 6 years old!\n
+    Happy Birthday Amanda!You are now 27 years old!\n").to_stdout
 
   end
 end
