@@ -14,7 +14,7 @@ passengers.each do |suite, name|
   end
 end
 end 
-select_winner(passengers)
+puts winner
 
 birthday_kids = {
   "Timmy" => 9,
